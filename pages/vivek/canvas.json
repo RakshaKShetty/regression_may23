@@ -156,7 +156,7 @@
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd.svg",
               "topRow": 7,
-              "isSortable": true,
+              "isSortable": false,
               "type": "TABLE_WIDGET",
               "animateLoading": true,
               "dynamicBindingPathList": [
