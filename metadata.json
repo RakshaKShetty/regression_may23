@@ -2,10 +2,12 @@
   "clientSchemaVersion": 1,
   "serverSchemaVersion": 4,
   "pageOrder": [
-    "CheckboxGroup"
+    "CheckboxGroup",
+    "SwitchGroupWidget"
   ],
   "publishedPageOrder": [
-    "CheckboxGroup"
+    "CheckboxGroup",
+    "SwitchGroupWidget"
   ],
   "publishedDefaultPageName": "CheckboxGroup",
   "unpublishedDefaultPageName": "CheckboxGroup",
