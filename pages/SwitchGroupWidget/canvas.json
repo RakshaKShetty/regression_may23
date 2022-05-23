@@ -207,8 +207,8 @@
               "displayName": "Switch Group",
               "iconSVG": "/static/media/icon.c98225ee.svg",
               "labelText": "Switch to your requirement",
-              "topRow": 2,
-              "bottomRow": 8,
+              "topRow": 3,
+              "bottomRow": 9,
               "parentRowSpace": 10,
               "labelWidth": 5,
               "type": "SWITCH_GROUP_WIDGET",
@@ -584,7 +584,7 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "defaultCheckedState": true
+              "defaultCheckedState": false
             },
             {
               "widgetName": "Checkbox5",
