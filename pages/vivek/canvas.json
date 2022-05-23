@@ -43,13 +43,10 @@
               "leftColumn": 48,
               "dynamicBindingPathList": [
                 {
-                  "key": "fontFamily"
-                },
-                {
-                  "key": "borderRadius"
-                },
-                {
                   "key": "text"
+                },
+                {
+                  "key": "fontFamily"
                 }
               ],
               "shouldTruncate": false,
@@ -88,13 +85,10 @@
               "leftColumn": 32,
               "dynamicBindingPathList": [
                 {
-                  "key": "fontFamily"
-                },
-                {
-                  "key": "borderRadius"
-                },
-                {
                   "key": "text"
+                },
+                {
+                  "key": "fontFamily"
                 }
               ],
               "shouldTruncate": false,
@@ -133,13 +127,10 @@
               "leftColumn": 16,
               "dynamicBindingPathList": [
                 {
-                  "key": "fontFamily"
-                },
-                {
-                  "key": "borderRadius"
-                },
-                {
                   "key": "text"
+                },
+                {
+                  "key": "fontFamily"
                 }
               ],
               "shouldTruncate": false,
@@ -178,7 +169,8 @@
                 "t",
                 "borderradius",
                 "BorderRadius",
-                "customColumn1"
+                "customColumn1",
+                "customColumn2"
               ],
               "isVisibleDownload": true,
               "dynamicPropertyPathList": [
@@ -208,6 +200,21 @@
                 },
                 {
                   "key": "primaryColumns.customColumn1.isDisabled"
+                },
+                {
+                  "key": "primaryColumns.customColumn1.buttonVariant"
+                },
+                {
+                  "key": "primaryColumns.customColumn1.borderRadius"
+                },
+                {
+                  "key": "primaryColumns.customColumn2.isCellVisible"
+                },
+                {
+                  "key": "primaryColumns.customColumn2.isDisabled"
+                },
+                {
+                  "key": "primaryColumns.customColumn2.iconName"
                 }
               ],
               "displayName": "Table",
@@ -227,9 +234,102 @@
                 },
                 {
                   "key": "primaryColumns.image.onClick"
+                },
+                {
+                  "key": "primaryColumns.customColumn2.onClick"
                 }
               ],
               "dynamicBindingPathList": [
+                {
+                  "key": "tableData"
+                },
+                {
+                  "key": "primaryColumns.customColumn2.boxShadow"
+                },
+                {
+                  "key": "primaryColumns.customColumn2.borderRadius"
+                },
+                {
+                  "key": "primaryColumns.customColumn2.isDisabled"
+                },
+                {
+                  "key": "primaryColumns.customColumn2.isCellVisible"
+                },
+                {
+                  "key": "primaryColumns.customColumn1.borderRadius"
+                },
+                {
+                  "key": "primaryColumns.customColumn1.buttonVariant"
+                },
+                {
+                  "key": "primaryColumns.customColumn1.buttonLabel"
+                },
+                {
+                  "key": "primaryColumns.customColumn1.isDisabled"
+                },
+                {
+                  "key": "primaryColumns.customColumn1.isCellVisible"
+                },
+                {
+                  "key": "primaryColumns.BorderRadius.computedValue"
+                },
+                {
+                  "key": "primaryColumns.borderradius.computedValue"
+                },
+                {
+                  "key": "primaryColumns.t.computedValue"
+                },
+                {
+                  "key": "primaryColumns.country.fontStyle"
+                },
+                {
+                  "key": "primaryColumns.country.computedValue"
+                },
+                {
+                  "key": "primaryColumns.image.computedValue"
+                },
+                {
+                  "key": "primaryColumns.phone.computedValue"
+                },
+                {
+                  "key": "primaryColumns.longitude.computedValue"
+                },
+                {
+                  "key": "primaryColumns.latitude.computedValue"
+                },
+                {
+                  "key": "primaryColumns.dob.horizontalAlignment"
+                },
+                {
+                  "key": "primaryColumns.dob.computedValue"
+                },
+                {
+                  "key": "primaryColumns.email.computedValue"
+                },
+                {
+                  "key": "primaryColumns.gender.computedValue"
+                },
+                {
+                  "key": "primaryColumns.name.computedValue"
+                },
+                {
+                  "key": "primaryColumns.id.verticalAlignment"
+                },
+                {
+                  "key": "primaryColumns.id.fontStyle"
+                },
+                {
+                  "key": "primaryColumns.id.textSize"
+                },
+                {
+                  "key": "primaryColumns.id.horizontalAlignment"
+                },
+                {
+                  "key": "primaryColumns.id.isCellVisible"
+                },
+                {
+                  "key": "primaryColumns.id.computedValue"
+                },
                 {
                   "key": "accentColor"
                 },
@@ -240,115 +340,10 @@
                   "key": "boxShadow"
                 },
                 {
-                  "key": "childStylesheet.button.buttonColor"
+                  "key": "derivedColumns.customColumn2.iconName"
                 },
                 {
-                  "key": "childStylesheet.button.borderRadius"
-                },
-                {
-                  "key": "childStylesheet.menuButton.menuColor"
-                },
-                {
-                  "key": "childStylesheet.menuButton.borderRadius"
-                },
-                {
-                  "key": "childStylesheet.iconButton.menuColor"
-                },
-                {
-                  "key": "childStylesheet.iconButton.borderRadius"
-                },
-                {
-                  "key": "tableData"
-                },
-                {
-                  "key": "primaryColumns.id.computedValue"
-                },
-                {
-                  "key": "primaryColumns.name.computedValue"
-                },
-                {
-                  "key": "primaryColumns.gender.computedValue"
-                },
-                {
-                  "key": "primaryColumns.email.computedValue"
-                },
-                {
-                  "key": "primaryColumns.dob.computedValue"
-                },
-                {
-                  "key": "primaryColumns.latitude.computedValue"
-                },
-                {
-                  "key": "primaryColumns.longitude.computedValue"
-                },
-                {
-                  "key": "primaryColumns.phone.computedValue"
-                },
-                {
-                  "key": "primaryColumns.image.computedValue"
-                },
-                {
-                  "key": "primaryColumns.country.computedValue"
-                },
-                {
-                  "key": "primaryColumns.t.computedValue"
-                },
-                {
-                  "key": "primaryColumns.borderradius.computedValue"
-                },
-                {
-                  "key": "primaryColumns.BorderRadius.computedValue"
-                },
-                {
-                  "key": "primaryColumns.id.isCellVisible"
-                },
-                {
-                  "key": "primaryColumns.id.horizontalAlignment"
-                },
-                {
-                  "key": "primaryColumns.id.textSize"
-                },
-                {
-                  "key": "primaryColumns.id.fontStyle"
-                },
-                {
-                  "key": "primaryColumns.id.verticalAlignment"
-                },
-                {
-                  "key": "derivedColumns.customColumn1.borderRadius"
-                },
-                {
-                  "key": "primaryColumns.customColumn1.borderRadius"
-                },
-                {
-                  "key": "derivedColumns.customColumn1.boxShadow"
-                },
-                {
-                  "key": "primaryColumns.customColumn1.boxShadow"
-                },
-                {
-                  "key": "derivedColumns.customColumn1.buttonLabel"
-                },
-                {
-                  "key": "primaryColumns.customColumn1.buttonLabel"
-                },
-                {
-                  "key": "primaryColumns.dob.horizontalAlignment"
-                },
-                {
-                  "key": "primaryColumns.country.fontStyle"
-                },
-                {
-                  "key": "derivedColumns.customColumn1.isCellVisible"
-                },
-                {
-                  "key": "primaryColumns.customColumn1.isCellVisible"
-                },
-                {
-                  "key": "derivedColumns.customColumn1.isDisabled"
-                },
-                {
-                  "key": "primaryColumns.customColumn1.isDisabled"
+                  "key": "primaryColumns.customColumn2.iconName"
                 }
               ],
               "leftColumn": 1,
@@ -556,11 +551,11 @@
                   "index": 10,
                   "width": 150,
                   "id": "t",
-                  "horizontalAlignment": "LEFT",
+                  "horizontalAlignment": "RIGHT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textColor": "",
-                  "textSize": "0.875rem",
+                  "textColor": "#7f1d1d",
+                  "textSize": "1rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
@@ -568,7 +563,7 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "t",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.t))}}",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( 'test'))}}",
                   "cellBackground": ""
                 },
                 "borderradius": {
@@ -625,12 +620,34 @@
                   "buttonStyle": "rgb(3, 179, 101)",
                   "labelColor": "#FFFFFF",
                   "buttonColor": "#18181b",
-                  "borderRadius": "{{Table1.sanitizedTableData.map((currentRow) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
-                  "boxShadow": "{{Table1.sanitizedTableData.map((currentRow) => ( 'none'))}}",
+                  "borderRadius": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.gender === \"male\" ?\"0.3rem\" : \"1.5rem\"))}}",
+                  "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
                   "iconName": "",
                   "buttonLabel": "{{Table1.sanitizedTableData.map((currentRow) => ( 'Click'))}}",
                   "onClick": "{{showAlert('Table button clicked','success')}}",
-                  "buttonVariant": "PRIMARY"
+                  "buttonVariant": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.gender === \"male\" ?\"PRIMARY\" : \"SECONDARY\"))}}"
+                },
+                "customColumn2": {
+                  "index": 14,
+                  "width": 150,
+                  "id": "customColumn2",
+                  "columnType": "iconButton",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": "{{Table1.sanitizedTableData.map((currentRow) => ( Button1.text === \"Submi\"))}}",
+                  "isCellVisible": "{{Table1.sanitizedTableData.map((currentRow) => ( Button1.text === \"Submit\"))}}",
+                  "isDerived": true,
+                  "label": "icon",
+                  "computedValue": "",
+                  "buttonStyle": "rgb(3, 179, 101)",
+                  "labelColor": "#FFFFFF",
+                  "menuColor": "{{Table1.sanitizedTableData.map((currentRow) => ( appsmith.theme.colors.primaryColor))}}",
+                  "borderRadius": "{{Table1.sanitizedTableData.map((currentRow) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
+                  "boxShadow": "{{Table1.sanitizedTableData.map((currentRow) => ( 'none'))}}",
+                  "iconName": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.gender === \"male\" ? \"flash\" : \"glass\"))}}",
+                  "onClick": "{{showAlert('icon clicked on table','success')}}",
+                  "buttonColor": "black"
                 }
               },
               "delimiter": ",",
@@ -658,6 +675,28 @@
                   "buttonLabel": "{{Table1.sanitizedTableData.map((currentRow) => ( 'Click'))}}",
                   "onClick": "{{showAlert('Table button clicked','success')}}",
                   "buttonVariant": "PRIMARY"
+                },
+                "customColumn2": {
+                  "index": 14,
+                  "width": 150,
+                  "id": "customColumn2",
+                  "columnType": "iconButton",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": "{{Table1.sanitizedTableData.map((currentRow) => ( Button1.text === \"Submi\"))}}",
+                  "isCellVisible": "{{Table1.sanitizedTableData.map((currentRow) => ( Button1.text === \"Submit\"))}}",
+                  "isDerived": true,
+                  "label": "icon",
+                  "computedValue": "",
+                  "buttonStyle": "rgb(3, 179, 101)",
+                  "labelColor": "#FFFFFF",
+                  "menuColor": "{{Table1.sanitizedTableData.map((currentRow) => ( appsmith.theme.colors.primaryColor))}}",
+                  "borderRadius": "{{Table1.sanitizedTableData.map((currentRow) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
+                  "boxShadow": "{{Table1.sanitizedTableData.map((currentRow) => ( 'none'))}}",
+                  "iconName": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.gender === \"male\" ? \"flash\" : \"glass\"))}}",
+                  "onClick": "{{showAlert('icon clicked on table','success')}}",
+                  "buttonColor": "black"
                 }
               },
               "rightColumn": 44,
@@ -721,13 +760,10 @@
               "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
-                  "key": "fontFamily"
-                },
-                {
-                  "key": "borderRadius"
-                },
-                {
                   "key": "text"
+                },
+                {
+                  "key": "fontFamily"
                 }
               ],
               "shouldTruncate": false,
@@ -821,14 +857,7 @@
                   "minHeight": 718,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
-                  "dynamicBindingPathList": [
-                    {
-                      "key": "borderRadius"
-                    },
-                    {
-                      "key": "accentColor"
-                    }
-                  ],
+                  "dynamicBindingPathList": [],
                   "children": [
                     {
                       "boxShadow": "none",
@@ -880,9 +909,6 @@
                       "dynamicBindingPathList": [
                         {
                           "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
                         }
                       ],
                       "shouldTruncate": false,
@@ -994,10 +1020,10 @@
                       "leftColumn": 1,
                       "dynamicBindingPathList": [
                         {
-                          "key": "borderRadius"
+                          "key": "image"
                         },
                         {
-                          "key": "image"
+                          "key": "borderRadius"
                         }
                       ],
                       "defaultImage": "https://assets.appsmith.com/widgets/default.png",
@@ -1044,6 +1070,54 @@
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "width": 1044
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Select1",
+              "isFilterable": true,
+              "displayName": "Select",
+              "iconSVG": "/static/media/icon.bd99caba.svg",
+              "labelText": "Label",
+              "topRow": 70,
+              "bottomRow": 74,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "SELECT_WIDGET",
+              "serverSideFiltering": false,
+              "hideCard": false,
+              "defaultOptionValue": "",
+              "animateLoading": true,
+              "parentColumnSpace": 20.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "options"
+                }
+              ],
+              "labelPosition": "Left",
+              "options": "{{Api2.data.map( (obj) =>{ return  {'label': obj.cca2, 'value': obj.cca2 } })}}",
+              "placeholderText": "Select option",
+              "isDisabled": false,
+              "key": "ii33z37zbl",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "rightColumn": 21,
+              "widgetId": "qp31rbvxww",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
             }
           ]
         },
@@ -1054,6 +1128,16 @@
               "name": "Query1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "vivek_Api2",
+              "name": "Api2",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
@@ -1068,6 +1152,7 @@
           "Image1",
           "MainContainer",
           "Modal1",
+          "Select1",
           "Table1",
           "Text1",
           "Text1Copy",
