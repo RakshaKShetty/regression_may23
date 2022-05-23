@@ -4,12 +4,12 @@
   "pageOrder": [
     "CheckboxGroup",
     "SwitchGroupWidget",
-    "Page1"
+    "Rating"
   ],
   "publishedPageOrder": [
     "CheckboxGroup",
     "SwitchGroupWidget",
-    "Page1"
+    "Rating"
   ],
   "publishedDefaultPageName": "CheckboxGroup",
   "unpublishedDefaultPageName": "CheckboxGroup",
