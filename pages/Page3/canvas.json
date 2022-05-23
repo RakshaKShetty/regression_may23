@@ -1,0 +1,3262 @@
+{
+  "unpublishedPage": {
+    "name": "Page3",
+    "slug": "page3",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 890,
+          "containerStyle": "none",
+          "snapRows": 56,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 58,
+          "minHeight": 570,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "schema": {
+                "__root_schema__": {
+                  "children": {
+                    "Restaurant_ID": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Restaurant_ID))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "6300002",
+                      "isCustomField": false,
+                      "accessor": "Restaurant_ID",
+                      "identifier": "Restaurant_ID",
+                      "position": 0,
+                      "originalIdentifier": "Restaurant_ID",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Restaurant ID"
+                    },
+                    "Restaurant_Name": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Restaurant_Name))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "Heat - Edsa Shangri-La",
+                      "isCustomField": false,
+                      "accessor": "Restaurant_Name",
+                      "identifier": "Restaurant_Name",
+                      "position": 1,
+                      "originalIdentifier": "Restaurant_Name",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Restaurant Name"
+                    },
+                    "Country_Code": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Country_Code))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "162",
+                      "isCustomField": false,
+                      "accessor": "Country_Code",
+                      "identifier": "Country_Code",
+                      "position": 2,
+                      "originalIdentifier": "Country_Code",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Country Code"
+                    },
+                    "_1213ididd": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"1213ididd\"]))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "Mandaluyong City",
+                      "isCustomField": false,
+                      "accessor": "1213ididd",
+                      "identifier": "_1213ididd",
+                      "position": 3,
+                      "originalIdentifier": "1213ididd",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "1213 Ididd"
+                    },
+                    "Address": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Address))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "Edsa Shangri-La, 1 Garden Way, Ortigas, Mandaluyong City",
+                      "isCustomField": false,
+                      "accessor": "Address",
+                      "identifier": "Address",
+                      "position": 4,
+                      "originalIdentifier": "Address",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Address"
+                    },
+                    "Locality": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Locality))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "Edsa Shangri-La, Ortigas, Mandaluyong City",
+                      "isCustomField": false,
+                      "accessor": "Locality",
+                      "identifier": "Locality",
+                      "position": 5,
+                      "originalIdentifier": "Locality",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Locality"
+                    },
+                    "Locality_Verbose": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Locality_Verbose))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "Edsa Shangri-La, Ortigas, Mandaluyong City, Mandaluyong City",
+                      "isCustomField": false,
+                      "accessor": "Locality_Verbose",
+                      "identifier": "Locality_Verbose",
+                      "position": 6,
+                      "originalIdentifier": "Locality_Verbose",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Locality Verbose"
+                    },
+                    "Longitude": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Longitude))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "121.056831",
+                      "isCustomField": false,
+                      "accessor": "Longitude",
+                      "identifier": "Longitude",
+                      "position": 7,
+                      "originalIdentifier": "Longitude",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Longitude"
+                    },
+                    "Latitude": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Latitude))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "14.581404",
+                      "isCustomField": false,
+                      "accessor": "Latitude",
+                      "identifier": "Latitude",
+                      "position": 8,
+                      "originalIdentifier": "Latitude",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Latitude"
+                    },
+                    "Cuisines": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Cuisines))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "Seafood, Asian, Filipino, Indian",
+                      "isCustomField": false,
+                      "accessor": "Cuisines",
+                      "identifier": "Cuisines",
+                      "position": 9,
+                      "originalIdentifier": "Cuisines",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Cuisines"
+                    },
+                    "Average_Cost_for_two": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Average_Cost_for_two))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "4000",
+                      "isCustomField": false,
+                      "accessor": "Average_Cost_for_two",
+                      "identifier": "Average_Cost_for_two",
+                      "position": 10,
+                      "originalIdentifier": "Average_Cost_for_two",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Average Cost For Two"
+                    },
+                    "Currency": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Currency))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "Botswana Pula(P)",
+                      "isCustomField": false,
+                      "accessor": "Currency",
+                      "identifier": "Currency",
+                      "position": 11,
+                      "originalIdentifier": "Currency",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Currency"
+                    },
+                    "Has_Table_booking": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Has_Table_booking))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "Yes",
+                      "isCustomField": false,
+                      "accessor": "Has_Table_booking",
+                      "identifier": "Has_Table_booking",
+                      "position": 12,
+                      "originalIdentifier": "Has_Table_booking",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Has Table Booking"
+                    },
+                    "Has_Online_delivery": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Has_Online_delivery))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "No",
+                      "isCustomField": false,
+                      "accessor": "Has_Online_delivery",
+                      "identifier": "Has_Online_delivery",
+                      "position": 13,
+                      "originalIdentifier": "Has_Online_delivery",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Has Online Delivery"
+                    },
+                    "Is_delivering_now": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Is_delivering_now))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "No",
+                      "isCustomField": false,
+                      "accessor": "Is_delivering_now",
+                      "identifier": "Is_delivering_now",
+                      "position": 14,
+                      "originalIdentifier": "Is_delivering_now",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Is Delivering Now"
+                    },
+                    "Switch_to_order_menu": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Switch_to_order_menu))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "No",
+                      "isCustomField": false,
+                      "accessor": "Switch_to_order_menu",
+                      "identifier": "Switch_to_order_menu",
+                      "position": 15,
+                      "originalIdentifier": "Switch_to_order_menu",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Switch To Order Menu"
+                    },
+                    "Price_range": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Price_range))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "4",
+                      "isCustomField": false,
+                      "accessor": "Price_range",
+                      "identifier": "Price_range",
+                      "position": 16,
+                      "originalIdentifier": "Price_range",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Price Range"
+                    },
+                    "Aggregate_rating": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Aggregate_rating))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "4.4",
+                      "isCustomField": false,
+                      "accessor": "Aggregate_rating",
+                      "identifier": "Aggregate_rating",
+                      "position": 17,
+                      "originalIdentifier": "Aggregate_rating",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Aggregate Rating"
+                    },
+                    "Rating_color": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Rating_color))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "Green",
+                      "isCustomField": false,
+                      "accessor": "Rating_color",
+                      "identifier": "Rating_color",
+                      "position": 18,
+                      "originalIdentifier": "Rating_color",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Rating Color"
+                    },
+                    "Rating_text": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Rating_text))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "Very Good",
+                      "isCustomField": false,
+                      "accessor": "Rating_text",
+                      "identifier": "Rating_text",
+                      "position": 19,
+                      "originalIdentifier": "Rating_text",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Rating Text"
+                    },
+                    "Votes": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Votes))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "270",
+                      "isCustomField": false,
+                      "accessor": "Votes",
+                      "identifier": "Votes",
+                      "position": 20,
+                      "originalIdentifier": "Votes",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Votes"
+                    },
+                    "rowIndex": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.rowIndex))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "2",
+                      "isCustomField": false,
+                      "accessor": "rowIndex",
+                      "identifier": "rowIndex",
+                      "position": 21,
+                      "originalIdentifier": "rowIndex",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": true,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Row Index"
+                    },
+                    "customField1": {
+                      "children": {},
+                      "dataType": "string",
+                      "fieldType": "Text Input",
+                      "sourceData": "",
+                      "isCustomField": true,
+                      "accessor": "customField1",
+                      "identifier": "customField1",
+                      "position": 22,
+                      "originalIdentifier": "customField1",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Custom Field 1"
+                    }
+                  },
+                  "dataType": "object",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                  "fieldType": "Object",
+                  "sourceData": {
+                    "Restaurant_ID": "6300002",
+                    "Restaurant_Name": "Heat - Edsa Shangri-La",
+                    "Country_Code": "162",
+                    "1213ididd": "Mandaluyong City",
+                    "Address": "Edsa Shangri-La, 1 Garden Way, Ortigas, Mandaluyong City",
+                    "Locality": "Edsa Shangri-La, Ortigas, Mandaluyong City",
+                    "Locality_Verbose": "Edsa Shangri-La, Ortigas, Mandaluyong City, Mandaluyong City",
+                    "Longitude": "121.056831",
+                    "Latitude": "14.581404",
+                    "Cuisines": "Seafood, Asian, Filipino, Indian",
+                    "Average_Cost_for_two": "4000",
+                    "Currency": "Botswana Pula(P)",
+                    "Has_Table_booking": "Yes",
+                    "Has_Online_delivery": "No",
+                    "Is_delivering_now": "No",
+                    "Switch_to_order_menu": "No",
+                    "Price_range": "4",
+                    "Aggregate_rating": "4.4",
+                    "Rating_color": "Green",
+                    "Rating_text": "Very Good",
+                    "Votes": "270",
+                    "rowIndex": "2"
+                  },
+                  "isCustomField": false,
+                  "accessor": "__root_schema__",
+                  "identifier": "__root_schema__",
+                  "position": -1,
+                  "originalIdentifier": "__root_schema__",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none",
+                  "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "cellBoxShadow": "none",
+                  "isDisabled": false,
+                  "isRequired": false,
+                  "isVisible": true,
+                  "labelTextSize": "0.875rem",
+                  "label": ""
+                }
+              },
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "JSONForm1",
+              "submitButtonStyles": {
+                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                "boxShadow": "none",
+                "buttonVariant": "PRIMARY"
+              },
+              "dynamicPropertyPathList": [
+                {
+                  "key": "schema.__root_schema__.children.date_of_birth.defaultValue"
+                }
+              ],
+              "displayName": "JSON Form",
+              "iconSVG": "/static/media/icon.5b428de1.svg",
+              "topRow": 4,
+              "bottomRow": 54,
+              "fieldLimitExceeded": false,
+              "parentRowSpace": 10,
+              "title": "Form",
+              "type": "JSON_FORM_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 10.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 31,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "submitButtonStyles.buttonColor"
+                },
+                {
+                  "key": "submitButtonStyles.borderRadius"
+                },
+                {
+                  "key": "resetButtonStyles.buttonColor"
+                },
+                {
+                  "key": "resetButtonStyles.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.ARRAY.accentColor"
+                },
+                {
+                  "key": "childStylesheet.ARRAY.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.ARRAY.cellBorderRadius"
+                },
+                {
+                  "key": "childStylesheet.OBJECT.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.OBJECT.cellBorderRadius"
+                },
+                {
+                  "key": "childStylesheet.CHECKBOX.accentColor"
+                },
+                {
+                  "key": "childStylesheet.CHECKBOX.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.CURRENCY_INPUT.accentColor"
+                },
+                {
+                  "key": "childStylesheet.CURRENCY_INPUT.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.DATEPICKER.accentColor"
+                },
+                {
+                  "key": "childStylesheet.DATEPICKER.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.EMAIL_INPUT.accentColor"
+                },
+                {
+                  "key": "childStylesheet.EMAIL_INPUT.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.MULTISELECT.accentColor"
+                },
+                {
+                  "key": "childStylesheet.MULTISELECT.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.MULTILINE_TEXT_INPUT.accentColor"
+                },
+                {
+                  "key": "childStylesheet.MULTILINE_TEXT_INPUT.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.NUMBER_INPUT.accentColor"
+                },
+                {
+                  "key": "childStylesheet.NUMBER_INPUT.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.PASSWORD_INPUT.accentColor"
+                },
+                {
+                  "key": "childStylesheet.PASSWORD_INPUT.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.PHONE_NUMBER_INPUT.accentColor"
+                },
+                {
+                  "key": "childStylesheet.PHONE_NUMBER_INPUT.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.RADIO_GROUP.accentColor"
+                },
+                {
+                  "key": "childStylesheet.SELECT.accentColor"
+                },
+                {
+                  "key": "childStylesheet.SELECT.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.SWITCH.accentColor"
+                },
+                {
+                  "key": "childStylesheet.TEXT_INPUT.accentColor"
+                },
+                {
+                  "key": "childStylesheet.TEXT_INPUT.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.cellBorderRadius"
+                },
+                {
+                  "key": "sourceData"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Restaurant_ID.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Restaurant_ID.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Restaurant_ID.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Restaurant_Name.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Restaurant_Name.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Restaurant_Name.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Country_Code.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Country_Code.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Country_Code.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children._1213ididd.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children._1213ididd.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children._1213ididd.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Address.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Address.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Address.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Locality.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Locality.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Locality.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Locality_Verbose.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Locality_Verbose.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Locality_Verbose.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Longitude.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Longitude.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Longitude.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Latitude.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Latitude.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Latitude.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Cuisines.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Cuisines.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Cuisines.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Average_Cost_for_two.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Average_Cost_for_two.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Average_Cost_for_two.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Currency.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Currency.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Currency.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Has_Table_booking.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Has_Table_booking.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Has_Table_booking.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Has_Online_delivery.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Has_Online_delivery.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Has_Online_delivery.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Is_delivering_now.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Is_delivering_now.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Is_delivering_now.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Switch_to_order_menu.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Switch_to_order_menu.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Switch_to_order_menu.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Price_range.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Price_range.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Price_range.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Aggregate_rating.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Aggregate_rating.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Aggregate_rating.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Rating_color.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Rating_color.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Rating_color.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Rating_text.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Rating_text.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Rating_text.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Votes.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Votes.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.Votes.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.rowIndex.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.rowIndex.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.rowIndex.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.customField1.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.customField1.borderRadius"
+                }
+              ],
+              "sourceData": "{{Table1.selectedRow}}",
+              "showReset": true,
+              "resetButtonLabel": "Reset",
+              "key": "o0anfcutd9",
+              "backgroundColor": "#fff",
+              "rightColumn": 61,
+              "autoGenerateForm": true,
+              "widgetId": "3lshci8etc",
+              "resetButtonStyles": {
+                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                "boxShadow": "none",
+                "buttonVariant": "SECONDARY"
+              },
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "scrollContents": true,
+              "fixedFooter": true,
+              "submitButtonLabel": "Submit",
+              "childStylesheet": {
+                "ARRAY": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none",
+                  "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "cellBoxShadow": "none"
+                },
+                "OBJECT": {
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none",
+                  "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "cellBoxShadow": "none"
+                },
+                "CHECKBOX": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                },
+                "CURRENCY_INPUT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "DATEPICKER": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "EMAIL_INPUT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "MULTISELECT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "MULTILINE_TEXT_INPUT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "NUMBER_INPUT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "PASSWORD_INPUT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "PHONE_NUMBER_INPUT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "RADIO_GROUP": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "boxShadow": "none"
+                },
+                "SELECT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "SWITCH": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "boxShadow": "none"
+                },
+                "TEXT_INPUT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                }
+              },
+              "disabledWhenInvalid": true,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "Table1",
+              "defaultPageSize": 0,
+              "columnOrder": [
+                "Restaurant_ID",
+                "Restaurant_Name",
+                "Country_Code",
+                "1213ididd",
+                "Address",
+                "Locality",
+                "Locality_Verbose",
+                "Longitude",
+                "Latitude",
+                "Cuisines",
+                "Average_Cost_for_two",
+                "Currency",
+                "Has_Table_booking",
+                "Has_Online_delivery",
+                "Is_delivering_now",
+                "Switch_to_order_menu",
+                "Price_range",
+                "Aggregate_rating",
+                "Rating_color",
+                "Rating_text",
+                "Votes",
+                "rowIndex"
+              ],
+              "isVisibleDownload": true,
+              "dynamicPropertyPathList": [],
+              "displayName": "Table",
+              "iconSVG": "/static/media/icon.db8a9cbd.svg",
+              "topRow": 6,
+              "bottomRow": 34,
+              "isSortable": true,
+              "parentRowSpace": 10,
+              "type": "TABLE_WIDGET",
+              "defaultSelectedRow": "0",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 10.0625,
+              "dynamicTriggerPathList": [],
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "childStylesheet.button.buttonColor"
+                },
+                {
+                  "key": "childStylesheet.button.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.menuButton.menuColor"
+                },
+                {
+                  "key": "childStylesheet.menuButton.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.iconButton.menuColor"
+                },
+                {
+                  "key": "childStylesheet.iconButton.borderRadius"
+                },
+                {
+                  "key": "tableData"
+                },
+                {
+                  "key": "primaryColumns.Restaurant_ID.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Restaurant_Name.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Country_Code.computedValue"
+                },
+                {
+                  "key": "primaryColumns.1213ididd.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Address.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Locality.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Locality_Verbose.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Longitude.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Latitude.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Cuisines.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Average_Cost_for_two.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Currency.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Has_Table_booking.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Has_Online_delivery.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Is_delivering_now.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Switch_to_order_menu.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Price_range.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Aggregate_rating.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Rating_color.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Rating_text.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Votes.computedValue"
+                },
+                {
+                  "key": "primaryColumns.rowIndex.computedValue"
+                }
+              ],
+              "leftColumn": 0,
+              "primaryColumns": {
+                "Restaurant_ID": {
+                  "index": 0,
+                  "width": 150,
+                  "id": "Restaurant_ID",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Restaurant_ID",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Restaurant_ID))}}",
+                  "cellBackground": ""
+                },
+                "Restaurant_Name": {
+                  "index": 1,
+                  "width": 150,
+                  "id": "Restaurant_Name",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Restaurant_Name",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Restaurant_Name))}}",
+                  "cellBackground": ""
+                },
+                "Country_Code": {
+                  "index": 2,
+                  "width": 150,
+                  "id": "Country_Code",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Country_Code",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Country_Code))}}",
+                  "cellBackground": ""
+                },
+                "1213ididd": {
+                  "index": 3,
+                  "width": 150,
+                  "id": "1213ididd",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "1213ididd",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.1213ididd))}}",
+                  "cellBackground": ""
+                },
+                "Address": {
+                  "index": 4,
+                  "width": 150,
+                  "id": "Address",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Address",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Address))}}",
+                  "cellBackground": ""
+                },
+                "Locality": {
+                  "index": 5,
+                  "width": 150,
+                  "id": "Locality",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Locality",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Locality))}}",
+                  "cellBackground": ""
+                },
+                "Locality_Verbose": {
+                  "index": 6,
+                  "width": 150,
+                  "id": "Locality_Verbose",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Locality_Verbose",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Locality_Verbose))}}",
+                  "cellBackground": ""
+                },
+                "Longitude": {
+                  "index": 7,
+                  "width": 150,
+                  "id": "Longitude",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Longitude",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Longitude))}}",
+                  "cellBackground": ""
+                },
+                "Latitude": {
+                  "index": 8,
+                  "width": 150,
+                  "id": "Latitude",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Latitude",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Latitude))}}",
+                  "cellBackground": ""
+                },
+                "Cuisines": {
+                  "index": 9,
+                  "width": 150,
+                  "id": "Cuisines",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Cuisines",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Cuisines))}}",
+                  "cellBackground": ""
+                },
+                "Average_Cost_for_two": {
+                  "index": 10,
+                  "width": 150,
+                  "id": "Average_Cost_for_two",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Average_Cost_for_two",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Average_Cost_for_two))}}",
+                  "cellBackground": ""
+                },
+                "Currency": {
+                  "index": 11,
+                  "width": 150,
+                  "id": "Currency",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Currency",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Currency))}}",
+                  "cellBackground": ""
+                },
+                "Has_Table_booking": {
+                  "index": 12,
+                  "width": 150,
+                  "id": "Has_Table_booking",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Has_Table_booking",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Has_Table_booking))}}",
+                  "cellBackground": ""
+                },
+                "Has_Online_delivery": {
+                  "index": 13,
+                  "width": 150,
+                  "id": "Has_Online_delivery",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Has_Online_delivery",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Has_Online_delivery))}}",
+                  "cellBackground": ""
+                },
+                "Is_delivering_now": {
+                  "index": 14,
+                  "width": 150,
+                  "id": "Is_delivering_now",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Is_delivering_now",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Is_delivering_now))}}",
+                  "cellBackground": ""
+                },
+                "Switch_to_order_menu": {
+                  "index": 15,
+                  "width": 150,
+                  "id": "Switch_to_order_menu",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Switch_to_order_menu",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Switch_to_order_menu))}}",
+                  "cellBackground": ""
+                },
+                "Price_range": {
+                  "index": 16,
+                  "width": 150,
+                  "id": "Price_range",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Price_range",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Price_range))}}",
+                  "cellBackground": ""
+                },
+                "Aggregate_rating": {
+                  "index": 17,
+                  "width": 150,
+                  "id": "Aggregate_rating",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Aggregate_rating",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Aggregate_rating))}}",
+                  "cellBackground": ""
+                },
+                "Rating_color": {
+                  "index": 18,
+                  "width": 150,
+                  "id": "Rating_color",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Rating_color",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Rating_color))}}",
+                  "cellBackground": ""
+                },
+                "Rating_text": {
+                  "index": 19,
+                  "width": 150,
+                  "id": "Rating_text",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Rating_text",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Rating_text))}}",
+                  "cellBackground": ""
+                },
+                "Votes": {
+                  "index": 20,
+                  "width": 150,
+                  "id": "Votes",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Votes",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Votes))}}",
+                  "cellBackground": ""
+                },
+                "rowIndex": {
+                  "index": 21,
+                  "width": 150,
+                  "id": "rowIndex",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "rowIndex",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.rowIndex))}}",
+                  "cellBackground": ""
+                }
+              },
+              "delimiter": ",",
+              "key": "sd42be2io0",
+              "derivedColumns": {},
+              "rightColumn": 25,
+              "textSize": "0.875rem",
+              "widgetId": "r79d21ni5p",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisibleFilters": true,
+              "tableData": "{{Api1.data}}",
+              "isVisible": true,
+              "label": "Data",
+              "searchKey": "",
+              "enableClientSideSearch": true,
+              "version": 3,
+              "totalRecordsCount": 0,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "horizontalAlignment": "LEFT",
+              "isVisibleSearch": true,
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "menuButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "iconButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                }
+              },
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "isVisiblePagination": true,
+              "verticalAlignment": "CENTER",
+              "columnSizeMap": {
+                "task": 245,
+                "step": 62,
+                "status": 75
+              }
+            },
+            {
+              "schema": {
+                "__root_schema__": {
+                  "children": {
+                    "name": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.name))(JSONForm2.sourceData, JSONForm2.formData, JSONForm2.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "John",
+                      "isCustomField": false,
+                      "accessor": "name",
+                      "identifier": "name",
+                      "position": 0,
+                      "originalIdentifier": "name",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Name"
+                    },
+                    "date_of_birth": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.date_of_birth, \"DD/MM/YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(JSONForm2.sourceData, JSONForm2.formData, JSONForm2.fieldState)}}",
+                      "fieldType": "Datepicker",
+                      "sourceData": "20/02/1990",
+                      "isCustomField": false,
+                      "accessor": "date_of_birth",
+                      "identifier": "date_of_birth",
+                      "position": 1,
+                      "originalIdentifier": "date_of_birth",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "closeOnSelection": false,
+                      "convertToISO": false,
+                      "dateFormat": "DD/MM/YYYY",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isVisible": true,
+                      "label": "Date Of Birth",
+                      "maxDate": "2121-12-31T18:29:00.000Z",
+                      "minDate": "1920-12-31T18:30:00.000Z",
+                      "shortcuts": false,
+                      "timePrecision": "minute",
+                      "labelTextSize": "0.875rem"
+                    },
+                    "employee_id": {
+                      "children": {},
+                      "dataType": "number",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.employee_id))(JSONForm2.sourceData, JSONForm2.formData, JSONForm2.fieldState)}}",
+                      "fieldType": "Number Input",
+                      "sourceData": 1001,
+                      "isCustomField": false,
+                      "accessor": "employee_id",
+                      "identifier": "employee_id",
+                      "position": 2,
+                      "originalIdentifier": "employee_id",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "boxShadow": "none",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": true,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Employee Id",
+                      "iconName": "add-to-artifact"
+                    }
+                  },
+                  "dataType": "object",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(JSONForm2.sourceData, JSONForm2.formData, JSONForm2.fieldState)}}",
+                  "fieldType": "Object",
+                  "sourceData": {
+                    "name": "John",
+                    "date_of_birth": "20/02/1990",
+                    "employee_id": 1001
+                  },
+                  "isCustomField": false,
+                  "accessor": "__root_schema__",
+                  "identifier": "__root_schema__",
+                  "position": -1,
+                  "originalIdentifier": "__root_schema__",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none",
+                  "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "cellBoxShadow": "none",
+                  "isDisabled": false,
+                  "isRequired": false,
+                  "isVisible": true,
+                  "labelTextSize": "0.875rem",
+                  "label": ""
+                }
+              },
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "JSONForm2",
+              "submitButtonStyles": {
+                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                "boxShadow": "none",
+                "buttonVariant": "PRIMARY"
+              },
+              "dynamicPropertyPathList": [
+                {
+                  "key": "schema.__root_schema__.children.date_of_birth.defaultValue"
+                }
+              ],
+              "displayName": "JSON Form",
+              "iconSVG": "/static/media/icon.5b428de1.svg",
+              "onSubmit": "{{showModal('Modal1')}}",
+              "topRow": 37,
+              "bottomRow": 87,
+              "fieldLimitExceeded": false,
+              "parentRowSpace": 10,
+              "title": "Form",
+              "type": "JSON_FORM_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 10.0625,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onSubmit"
+                }
+              ],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "submitButtonStyles.buttonColor"
+                },
+                {
+                  "key": "submitButtonStyles.borderRadius"
+                },
+                {
+                  "key": "resetButtonStyles.buttonColor"
+                },
+                {
+                  "key": "resetButtonStyles.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.ARRAY.accentColor"
+                },
+                {
+                  "key": "childStylesheet.ARRAY.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.ARRAY.cellBorderRadius"
+                },
+                {
+                  "key": "childStylesheet.OBJECT.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.OBJECT.cellBorderRadius"
+                },
+                {
+                  "key": "childStylesheet.CHECKBOX.accentColor"
+                },
+                {
+                  "key": "childStylesheet.CHECKBOX.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.CURRENCY_INPUT.accentColor"
+                },
+                {
+                  "key": "childStylesheet.CURRENCY_INPUT.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.DATEPICKER.accentColor"
+                },
+                {
+                  "key": "childStylesheet.DATEPICKER.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.EMAIL_INPUT.accentColor"
+                },
+                {
+                  "key": "childStylesheet.EMAIL_INPUT.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.MULTISELECT.accentColor"
+                },
+                {
+                  "key": "childStylesheet.MULTISELECT.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.MULTILINE_TEXT_INPUT.accentColor"
+                },
+                {
+                  "key": "childStylesheet.MULTILINE_TEXT_INPUT.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.NUMBER_INPUT.accentColor"
+                },
+                {
+                  "key": "childStylesheet.NUMBER_INPUT.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.PASSWORD_INPUT.accentColor"
+                },
+                {
+                  "key": "childStylesheet.PASSWORD_INPUT.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.PHONE_NUMBER_INPUT.accentColor"
+                },
+                {
+                  "key": "childStylesheet.PHONE_NUMBER_INPUT.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.RADIO_GROUP.accentColor"
+                },
+                {
+                  "key": "childStylesheet.SELECT.accentColor"
+                },
+                {
+                  "key": "childStylesheet.SELECT.borderRadius"
+                },
+                {
+                  "key": "childStylesheet.SWITCH.accentColor"
+                },
+                {
+                  "key": "childStylesheet.TEXT_INPUT.accentColor"
+                },
+                {
+                  "key": "childStylesheet.TEXT_INPUT.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.name.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.name.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.name.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.date_of_birth.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.date_of_birth.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.date_of_birth.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.employee_id.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.employee_id.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.employee_id.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.cellBorderRadius"
+                }
+              ],
+              "sourceData": {
+                "name": "John",
+                "date_of_birth": "20/02/1990",
+                "employee_id": 1001
+              },
+              "showReset": true,
+              "resetButtonLabel": "Reset",
+              "key": "357cxcrv53",
+              "backgroundColor": "#fff",
+              "rightColumn": 31,
+              "autoGenerateForm": true,
+              "widgetId": "28ryxvafbj",
+              "resetButtonStyles": {
+                "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                "boxShadow": "none",
+                "buttonVariant": "SECONDARY"
+              },
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "scrollContents": true,
+              "fixedFooter": false,
+              "submitButtonLabel": "Submit",
+              "childStylesheet": {
+                "ARRAY": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none",
+                  "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "cellBoxShadow": "none"
+                },
+                "OBJECT": {
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none",
+                  "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "cellBoxShadow": "none"
+                },
+                "CHECKBOX": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                },
+                "CURRENCY_INPUT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "DATEPICKER": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "EMAIL_INPUT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "MULTISELECT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "MULTILINE_TEXT_INPUT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "NUMBER_INPUT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "PASSWORD_INPUT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "PHONE_NUMBER_INPUT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "RADIO_GROUP": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "boxShadow": "none"
+                },
+                "SELECT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "SWITCH": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "boxShadow": "none"
+                },
+                "TEXT_INPUT": {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                }
+              },
+              "disabledWhenInvalid": true,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Modal1",
+              "isCanvas": true,
+              "displayName": "Modal",
+              "iconSVG": "/static/media/icon.4975978e.svg",
+              "topRow": 0,
+              "bottomRow": 0,
+              "parentRowSpace": 1,
+              "type": "MODAL_WIDGET",
+              "hideCard": false,
+              "shouldScrollContents": true,
+              "animateLoading": true,
+              "parentColumnSpace": 1,
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "children": [
+                {
+                  "boxShadow": "none",
+                  "widgetName": "Canvas1",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 560,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": true,
+                  "hideCard": true,
+                  "shouldScrollContents": false,
+                  "minHeight": 0,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [
+                    {
+                      "key": "borderRadius"
+                    },
+                    {
+                      "key": "accentColor"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "IconButton1",
+                      "onClick": "{{closeModal('Modal1')}}",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "displayName": "Icon Button",
+                      "iconSVG": "/static/media/icon.1a0c634a.svg",
+                      "topRow": 1,
+                      "bottomRow": 5,
+                      "type": "ICON_BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "leftColumn": 56,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "iconSize": 24,
+                      "isDisabled": false,
+                      "key": "03hmrdawbg",
+                      "rightColumn": 64,
+                      "iconName": "cross",
+                      "widgetId": "ncrd2mwbue",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "gig8dm5baz",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "TERTIARY"
+                    },
+                    {
+                      "widgetName": "Text1",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Modal Title",
+                      "key": "v6hx1c7h7f",
+                      "rightColumn": 41,
+                      "textAlign": "LEFT",
+                      "widgetId": "2wynmxywja",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "gig8dm5baz",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "fontSize": "1.5rem"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Button1",
+                      "onClick": "{{closeModal('Modal1')}}",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "displayName": "Button",
+                      "iconSVG": "/static/media/icon.cca02633.svg",
+                      "topRow": 16,
+                      "bottomRow": 20,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "leftColumn": 49,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "text": "Close",
+                      "isDisabled": false,
+                      "key": "3fmipmi7j6",
+                      "rightColumn": 62,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "w12zhxfu7t",
+                      "buttonStyle": "PRIMARY",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "gig8dm5baz",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "SECONDARY",
+                      "placement": "CENTER"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Button2",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "displayName": "Button",
+                      "iconSVG": "/static/media/icon.cca02633.svg",
+                      "topRow": 16,
+                      "bottomRow": 20,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "leftColumn": 62,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "text": "Confirm",
+                      "isDisabled": false,
+                      "key": "3fmipmi7j6",
+                      "rightColumn": 64,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "neefgw0kco",
+                      "buttonStyle": "PRIMARY_BUTTON",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "gig8dm5baz",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "PRIMARY",
+                      "placement": "CENTER"
+                    },
+                    {
+                      "schema": {
+                        "__root_schema__": {
+                          "children": {
+                            "_1213ididd": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"1213ididd\"]))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "Mandaluyong City",
+                              "isCustomField": false,
+                              "accessor": "1213ididd",
+                              "identifier": "_1213ididd",
+                              "position": 0,
+                              "originalIdentifier": "1213ididd",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "iconAlign": "left",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "1213 Ididd"
+                            },
+                            "Address": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Address))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "Edsa Shangri-La, 1 Garden Way, Ortigas, Mandaluyong City",
+                              "isCustomField": false,
+                              "accessor": "Address",
+                              "identifier": "Address",
+                              "position": 1,
+                              "originalIdentifier": "Address",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "iconAlign": "left",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "Address"
+                            },
+                            "Locality": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Locality))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "Edsa Shangri-La, Ortigas, Mandaluyong City",
+                              "isCustomField": false,
+                              "accessor": "Locality",
+                              "identifier": "Locality",
+                              "position": 2,
+                              "originalIdentifier": "Locality",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "iconAlign": "left",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "Locality"
+                            },
+                            "Longitude": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Longitude))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "121.056831",
+                              "isCustomField": false,
+                              "accessor": "Longitude",
+                              "identifier": "Longitude",
+                              "position": 3,
+                              "originalIdentifier": "Longitude",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "iconAlign": "left",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "Longitude"
+                            },
+                            "Latitude": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Latitude))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "14.581404",
+                              "isCustomField": false,
+                              "accessor": "Latitude",
+                              "identifier": "Latitude",
+                              "position": 4,
+                              "originalIdentifier": "Latitude",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "iconAlign": "left",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "Latitude"
+                            },
+                            "Cuisines": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Cuisines))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "Seafood, Asian, Filipino, Indian",
+                              "isCustomField": false,
+                              "accessor": "Cuisines",
+                              "identifier": "Cuisines",
+                              "position": 5,
+                              "originalIdentifier": "Cuisines",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "iconAlign": "left",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "Cuisines"
+                            },
+                            "Currency": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Currency))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "Botswana Pula(P)",
+                              "isCustomField": false,
+                              "accessor": "Currency",
+                              "identifier": "Currency",
+                              "position": 6,
+                              "originalIdentifier": "Currency",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "iconAlign": "left",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "Currency"
+                            },
+                            "Votes": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Votes))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "270",
+                              "isCustomField": false,
+                              "accessor": "Votes",
+                              "identifier": "Votes",
+                              "position": 7,
+                              "originalIdentifier": "Votes",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "iconAlign": "left",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "Votes"
+                            },
+                            "rowIndex": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.rowIndex))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "2",
+                              "isCustomField": false,
+                              "accessor": "rowIndex",
+                              "identifier": "rowIndex",
+                              "position": 8,
+                              "originalIdentifier": "rowIndex",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "iconAlign": "left",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "Row Index"
+                            },
+                            "Restaurant_ID": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Restaurant_ID))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "6300002",
+                              "isCustomField": false,
+                              "accessor": "Restaurant_ID",
+                              "identifier": "Restaurant_ID",
+                              "position": 9,
+                              "originalIdentifier": "Restaurant_ID",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "iconAlign": "left",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "Restaurant ID"
+                            },
+                            "Restaurant_Name": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Restaurant_Name))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "Heat - Edsa Shangri-La",
+                              "isCustomField": false,
+                              "accessor": "Restaurant_Name",
+                              "identifier": "Restaurant_Name",
+                              "position": 10,
+                              "originalIdentifier": "Restaurant_Name",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "iconAlign": "left",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "Restaurant Name"
+                            },
+                            "Country_Code": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Country_Code))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "162",
+                              "isCustomField": false,
+                              "accessor": "Country_Code",
+                              "identifier": "Country_Code",
+                              "position": 11,
+                              "originalIdentifier": "Country_Code",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "iconAlign": "left",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "Country Code"
+                            },
+                            "Locality_Verbose": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Locality_Verbose))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "Edsa Shangri-La, Ortigas, Mandaluyong City, Mandaluyong City",
+                              "isCustomField": false,
+                              "accessor": "Locality_Verbose",
+                              "identifier": "Locality_Verbose",
+                              "position": 12,
+                              "originalIdentifier": "Locality_Verbose",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "iconAlign": "left",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "Locality Verbose"
+                            },
+                            "Average_Cost_for_two": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Average_Cost_for_two))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "4000",
+                              "isCustomField": false,
+                              "accessor": "Average_Cost_for_two",
+                              "identifier": "Average_Cost_for_two",
+                              "position": 13,
+                              "originalIdentifier": "Average_Cost_for_two",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "iconAlign": "left",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "Average Cost For Two"
+                            },
+                            "Has_Table_booking": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Has_Table_booking))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "Yes",
+                              "isCustomField": false,
+                              "accessor": "Has_Table_booking",
+                              "identifier": "Has_Table_booking",
+                              "position": 14,
+                              "originalIdentifier": "Has_Table_booking",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "iconAlign": "left",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "Has Table Booking"
+                            },
+                            "Has_Online_delivery": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Has_Online_delivery))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "No",
+                              "isCustomField": false,
+                              "accessor": "Has_Online_delivery",
+                              "identifier": "Has_Online_delivery",
+                              "position": 15,
+                              "originalIdentifier": "Has_Online_delivery",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "iconAlign": "left",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "Has Online Delivery"
+                            },
+                            "Is_delivering_now": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Is_delivering_now))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "No",
+                              "isCustomField": false,
+                              "accessor": "Is_delivering_now",
+                              "identifier": "Is_delivering_now",
+                              "position": 16,
+                              "originalIdentifier": "Is_delivering_now",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "iconAlign": "left",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "Is Delivering Now"
+                            },
+                            "Switch_to_order_menu": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Switch_to_order_menu))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "No",
+                              "isCustomField": false,
+                              "accessor": "Switch_to_order_menu",
+                              "identifier": "Switch_to_order_menu",
+                              "position": 17,
+                              "originalIdentifier": "Switch_to_order_menu",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "iconAlign": "left",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "Switch To Order Menu"
+                            },
+                            "Price_range": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Price_range))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "4",
+                              "isCustomField": false,
+                              "accessor": "Price_range",
+                              "identifier": "Price_range",
+                              "position": 18,
+                              "originalIdentifier": "Price_range",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "iconAlign": "left",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "Price Range"
+                            },
+                            "Aggregate_rating": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Aggregate_rating))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "4.4",
+                              "isCustomField": false,
+                              "accessor": "Aggregate_rating",
+                              "identifier": "Aggregate_rating",
+                              "position": 19,
+                              "originalIdentifier": "Aggregate_rating",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "iconAlign": "left",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "Aggregate Rating"
+                            },
+                            "Rating_color": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Rating_color))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "Green",
+                              "isCustomField": false,
+                              "accessor": "Rating_color",
+                              "identifier": "Rating_color",
+                              "position": 20,
+                              "originalIdentifier": "Rating_color",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "iconAlign": "left",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "Rating Color"
+                            },
+                            "Rating_text": {
+                              "children": {},
+                              "dataType": "string",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Rating_text))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "Very Good",
+                              "isCustomField": false,
+                              "accessor": "Rating_text",
+                              "identifier": "Rating_text",
+                              "position": 21,
+                              "originalIdentifier": "Rating_text",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "boxShadow": "none",
+                              "iconAlign": "left",
+                              "isDisabled": false,
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "Rating Text"
+                            }
+                          },
+                          "dataType": "object",
+                          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(JSONForm3.sourceData, JSONForm3.formData, JSONForm3.fieldState)}}",
+                          "fieldType": "Object",
+                          "sourceData": {
+                            "Restaurant_ID": "6300002",
+                            "Restaurant_Name": "Heat - Edsa Shangri-La",
+                            "Country_Code": "162",
+                            "1213ididd": "Mandaluyong City",
+                            "Address": "Edsa Shangri-La, 1 Garden Way, Ortigas, Mandaluyong City",
+                            "Locality": "Edsa Shangri-La, Ortigas, Mandaluyong City",
+                            "Locality_Verbose": "Edsa Shangri-La, Ortigas, Mandaluyong City, Mandaluyong City",
+                            "Longitude": "121.056831",
+                            "Latitude": "14.581404",
+                            "Cuisines": "Seafood, Asian, Filipino, Indian",
+                            "Average_Cost_for_two": "4000",
+                            "Currency": "Botswana Pula(P)",
+                            "Has_Table_booking": "Yes",
+                            "Has_Online_delivery": "No",
+                            "Is_delivering_now": "No",
+                            "Switch_to_order_menu": "No",
+                            "Price_range": "4",
+                            "Aggregate_rating": "4.4",
+                            "Rating_color": "Green",
+                            "Rating_text": "Very Good",
+                            "Votes": "270",
+                            "rowIndex": "2"
+                          },
+                          "isCustomField": false,
+                          "accessor": "__root_schema__",
+                          "identifier": "__root_schema__",
+                          "position": -1,
+                          "originalIdentifier": "__root_schema__",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none",
+                          "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "cellBoxShadow": "none",
+                          "isDisabled": false,
+                          "isRequired": false,
+                          "isVisible": true,
+                          "labelTextSize": "0.875rem",
+                          "label": ""
+                        }
+                      },
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "widgetName": "JSONForm3",
+                      "submitButtonStyles": {
+                        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                        "boxShadow": "none",
+                        "buttonVariant": "PRIMARY"
+                      },
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "schema.__root_schema__.children.date_of_birth.defaultValue"
+                        }
+                      ],
+                      "displayName": "JSON Form",
+                      "iconSVG": "/static/media/icon.5b428de1.svg",
+                      "onSubmit": "{{closeModal('Modal1')}}",
+                      "topRow": 4,
+                      "bottomRow": 54,
+                      "fieldLimitExceeded": false,
+                      "parentRowSpace": 10,
+                      "title": "Form",
+                      "type": "JSON_FORM_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onSubmit"
+                        }
+                      ],
+                      "leftColumn": 4,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        },
+                        {
+                          "key": "submitButtonStyles.buttonColor"
+                        },
+                        {
+                          "key": "submitButtonStyles.borderRadius"
+                        },
+                        {
+                          "key": "resetButtonStyles.buttonColor"
+                        },
+                        {
+                          "key": "resetButtonStyles.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.ARRAY.accentColor"
+                        },
+                        {
+                          "key": "childStylesheet.ARRAY.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.ARRAY.cellBorderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.OBJECT.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.OBJECT.cellBorderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.CHECKBOX.accentColor"
+                        },
+                        {
+                          "key": "childStylesheet.CHECKBOX.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.CURRENCY_INPUT.accentColor"
+                        },
+                        {
+                          "key": "childStylesheet.CURRENCY_INPUT.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.DATEPICKER.accentColor"
+                        },
+                        {
+                          "key": "childStylesheet.DATEPICKER.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.EMAIL_INPUT.accentColor"
+                        },
+                        {
+                          "key": "childStylesheet.EMAIL_INPUT.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.MULTISELECT.accentColor"
+                        },
+                        {
+                          "key": "childStylesheet.MULTISELECT.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.MULTILINE_TEXT_INPUT.accentColor"
+                        },
+                        {
+                          "key": "childStylesheet.MULTILINE_TEXT_INPUT.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.NUMBER_INPUT.accentColor"
+                        },
+                        {
+                          "key": "childStylesheet.NUMBER_INPUT.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.PASSWORD_INPUT.accentColor"
+                        },
+                        {
+                          "key": "childStylesheet.PASSWORD_INPUT.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.PHONE_NUMBER_INPUT.accentColor"
+                        },
+                        {
+                          "key": "childStylesheet.PHONE_NUMBER_INPUT.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.RADIO_GROUP.accentColor"
+                        },
+                        {
+                          "key": "childStylesheet.SELECT.accentColor"
+                        },
+                        {
+                          "key": "childStylesheet.SELECT.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.SWITCH.accentColor"
+                        },
+                        {
+                          "key": "childStylesheet.TEXT_INPUT.accentColor"
+                        },
+                        {
+                          "key": "childStylesheet.TEXT_INPUT.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.cellBorderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Restaurant_ID.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Restaurant_ID.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Restaurant_ID.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Restaurant_Name.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Restaurant_Name.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Restaurant_Name.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Country_Code.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Country_Code.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Country_Code.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children._1213ididd.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children._1213ididd.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children._1213ididd.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Address.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Address.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Address.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Locality.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Locality.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Locality.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Locality_Verbose.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Locality_Verbose.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Locality_Verbose.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Longitude.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Longitude.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Longitude.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Latitude.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Latitude.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Latitude.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Cuisines.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Cuisines.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Cuisines.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Average_Cost_for_two.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Average_Cost_for_two.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Average_Cost_for_two.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Currency.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Currency.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Currency.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Has_Table_booking.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Has_Table_booking.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Has_Table_booking.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Has_Online_delivery.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Has_Online_delivery.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Has_Online_delivery.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Is_delivering_now.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Is_delivering_now.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Is_delivering_now.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Switch_to_order_menu.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Switch_to_order_menu.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Switch_to_order_menu.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Price_range.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Price_range.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Price_range.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Aggregate_rating.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Aggregate_rating.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Aggregate_rating.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Rating_color.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Rating_color.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Rating_color.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Rating_text.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Rating_text.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Rating_text.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Votes.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Votes.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.Votes.borderRadius"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.rowIndex.defaultValue"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.rowIndex.accentColor"
+                        },
+                        {
+                          "key": "schema.__root_schema__.children.rowIndex.borderRadius"
+                        },
+                        {
+                          "key": "sourceData"
+                        }
+                      ],
+                      "sourceData": "{{Table1.selectedRow}}",
+                      "showReset": true,
+                      "resetButtonLabel": "Reset",
+                      "key": "357cxcrv53",
+                      "backgroundColor": "#fff",
+                      "rightColumn": 49,
+                      "autoGenerateForm": true,
+                      "widgetId": "7r27hsngfs",
+                      "resetButtonStyles": {
+                        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                        "boxShadow": "none",
+                        "buttonVariant": "SECONDARY"
+                      },
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "gig8dm5baz",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "scrollContents": true,
+                      "fixedFooter": true,
+                      "submitButtonLabel": "Submit",
+                      "childStylesheet": {
+                        "ARRAY": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none",
+                          "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "cellBoxShadow": "none"
+                        },
+                        "OBJECT": {
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none",
+                          "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "cellBoxShadow": "none"
+                        },
+                        "CHECKBOX": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                        },
+                        "CURRENCY_INPUT": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "DATEPICKER": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "EMAIL_INPUT": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "MULTISELECT": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "MULTILINE_TEXT_INPUT": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "NUMBER_INPUT": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "PASSWORD_INPUT": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "PHONE_NUMBER_INPUT": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "RADIO_GROUP": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "boxShadow": "none"
+                        },
+                        "SELECT": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "SWITCH": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "boxShadow": "none"
+                        },
+                        "TEXT_INPUT": {
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        }
+                      },
+                      "disabledWhenInvalid": true,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                    }
+                  ],
+                  "isDisabled": false,
+                  "key": "e5735xub8o",
+                  "rightColumn": 0,
+                  "detachFromLayout": true,
+                  "widgetId": "gig8dm5baz",
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "j2gjrbemdr",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                }
+              ],
+              "key": "ym39jyzd7l",
+              "height": 240,
+              "rightColumn": 0,
+              "detachFromLayout": true,
+              "widgetId": "j2gjrbemdr",
+              "canOutsideClickClose": true,
+              "canEscapeKeyClose": true,
+              "version": 2,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "width": 456
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Page3_Api1",
+              "name": "Api1",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "widgetNames": [
+          "Button1",
+          "Button2",
+          "Canvas1",
+          "IconButton1",
+          "JSONForm1",
+          "JSONForm2",
+          "JSONForm3",
+          "MainContainer",
+          "Modal1",
+          "Table1",
+          "Text1"
+        ],
+        "validOnPageLoadActions": true,
+        "id": "Page3",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "policies": [],
+  "gitSyncId": "628b1c24db0f9c6e620d5dfb_628b1c37db0f9c6e620d5e03"
+}

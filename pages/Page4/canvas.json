@@ -1,0 +1,175 @@
+{
+  "unpublishedPage": {
+    "name": "Page4",
+    "slug": "page4",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 560,
+          "containerStyle": "none",
+          "snapRows": 56,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 58,
+          "minHeight": 570,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "Image1",
+              "displayName": "Image",
+              "iconSVG": "/static/media/icon.52d8fb96.svg",
+              "topRow": 2,
+              "bottomRow": 21,
+              "parentRowSpace": 10,
+              "type": "IMAGE_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 10.0625,
+              "dynamicTriggerPathList": [],
+              "imageShape": "RECTANGLE",
+              "leftColumn": 43,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "image"
+                }
+              ],
+              "defaultImage": "data:image/png;base64,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",
+              "key": "yubzivty63",
+              "image": "{{FilePicker1.files[1].data}}",
+              "rightColumn": 60,
+              "objectFit": "contain",
+              "widgetId": "8pxhdd0h64",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "maxZoomLevel": 1,
+              "enableDownload": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "enableRotation": false
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "DocumentViewer1",
+              "isCanvas": false,
+              "displayName": "Document Viewer",
+              "iconSVG": "/static/media/icon.09fcd36b.svg",
+              "topRow": 1,
+              "bottomRow": 45,
+              "parentRowSpace": 10,
+              "type": "DOCUMENT_VIEWER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 10.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 2,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "docUrl"
+                }
+              ],
+              "key": "7cj74o1zcg",
+              "rightColumn": 33,
+              "widgetId": "igbd39hf5l",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "docUrl": "{{FilePicker1.files[1].data}}"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "FilePicker1",
+              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "displayName": "FilePicker",
+              "iconSVG": "/static/media/icon.7c5ad9c3.svg",
+              "topRow": 29,
+              "bottomRow": 33,
+              "parentRowSpace": 10,
+              "allowedFileTypes": [],
+              "type": "FILE_PICKER_WIDGET_V2",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 10.0625,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onFilesSelected"
+                }
+              ],
+              "leftColumn": 37,
+              "dynamicBindingPathList": [
+                {
+                  "key": "buttonColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "isDisabled": false,
+              "key": "x26fec7hz2",
+              "onFilesSelected": "{{showAlert('file added')}}",
+              "isRequired": true,
+              "rightColumn": 53,
+              "isDefaultClickDisabled": true,
+              "widgetId": "bpt3ic3fr2",
+              "isVisible": true,
+              "label": "Select Files",
+              "maxFileSize": "5",
+              "version": 1,
+              "fileDataType": "Base64",
+              "parentId": "0",
+              "selectedFiles": [],
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "files": [],
+              "maxNumFiles": "2"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "widgetNames": [
+          "DocumentViewer1",
+          "FilePicker1",
+          "Image1",
+          "MainContainer"
+        ],
+        "validOnPageLoadActions": true,
+        "id": "Page4",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "policies": [],
+  "gitSyncId": "628b1c24db0f9c6e620d5dfb_628b3141db0f9c6e620d5fbd"
+}
