@@ -584,7 +584,7 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "defaultCheckedState": false
+              "defaultCheckedState": true
             },
             {
               "widgetName": "Checkbox5",
