@@ -28,6 +28,11 @@
             {
               "widgetName": "SwitchGroup1",
               "isCanvas": false,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "isDisabled"
+                }
+              ],
               "displayName": "Switch Group",
               "iconSVG": "/static/media/icon.c98225ee.svg",
               "labelText": "Label",
@@ -44,6 +49,9 @@
               "dynamicBindingPathList": [
                 {
                   "key": "accentColor"
+                },
+                {
+                  "key": "isDisabled"
                 }
               ],
               "labelPosition": "Left",
@@ -61,7 +69,7 @@
                   "value": "RED"
                 }
               ],
-              "isDisabled": false,
+              "isDisabled": "{{Checkbox1.isChecked ? 'true':'false'}}",
               "key": "ndpu6ykzaz",
               "labelTextSize": "0.875rem",
               "isRequired": true,
@@ -77,11 +85,49 @@
               "isLoading": false,
               "isInline": false,
               "alignment": "right"
+            },
+            {
+              "widgetName": "Checkbox1",
+              "displayName": "Checkbox",
+              "iconSVG": "/static/media/icon.aaab032b.svg",
+              "topRow": 19,
+              "bottomRow": 23,
+              "parentRowSpace": 10,
+              "type": "CHECKBOX_WIDGET",
+              "alignWidget": "LEFT",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 12,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "isDisabled": false,
+              "key": "la0y2xv3rv",
+              "isRequired": false,
+              "rightColumn": 27,
+              "widgetId": "88xtvn8047",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "label": "Disabled",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "defaultCheckedState": true
             }
           ]
         },
         "layoutOnLoadActions": [],
         "widgetNames": [
+          "Checkbox1",
           "MainContainer",
           "SwitchGroup1"
         ],
