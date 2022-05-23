@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 820,
+          "bottomRow": 850,
           "containerStyle": "none",
           "snapRows": 82,
           "parentRowSpace": 1,
@@ -24,75 +24,11 @@
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "children": [
-            {
-              "boxShadow": "none",
-              "widgetName": "Select1",
-              "isFilterable": true,
-              "displayName": "Select",
-              "iconSVG": "/static/media/icon.bd99caba.svg",
-              "labelText": "Label",
-              "topRow": 4,
-              "bottomRow": 11,
-              "parentRowSpace": 10,
-              "labelWidth": 5,
-              "type": "SELECT_WIDGET",
-              "serverSideFiltering": false,
-              "hideCard": false,
-              "defaultOptionValue": "{{\n            {\n              label: Select1.options[0].label,\n              value: Select1.options[0].value\n            }\n          }}",
-              "animateLoading": true,
-              "parentColumnSpace": 20.0625,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 2,
-              "dynamicBindingPathList": [
-                {
-                  "key": "accentColor"
-                },
-                {
-                  "key": "borderRadius"
-                },
-                {
-                  "key": "options"
-                },
-                {
-                  "key": "defaultOptionValue"
-                }
-              ],
-              "labelPosition": "Left",
-              "options": "{{Api2.data.map( (obj) =>{ return  {'label': obj.cca2, 'value': obj.cca2 } })}}",
-              "placeholderText": "Select option",
-              "isDisabled": false,
-              "key": "ii33z37zbl",
-              "labelTextSize": "0.875rem",
-              "isRequired": false,
-              "rightColumn": 22,
-              "widgetId": "ehh37s4xam",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "isVisible": true,
-              "version": 1,
-              "parentId": "0",
-              "labelAlignment": "left",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
-            }
-          ]
+          "children": []
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Page2_Api2",
-              "name": "Api2",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "widgetNames": [
-          "MainContainer",
-          "Select1"
+          "MainContainer"
         ],
         "validOnPageLoadActions": true,
         "id": "Page2",
