@@ -330,15 +330,15 @@
               ],
               "displayName": "Input",
               "iconSVG": "/static/media/icon.9f505595.svg",
-              "onSubmit": "",
+              "onSubmit": "{{showAlert('submitted','info')}}",
               "topRow": 12,
               "bottomRow": 16,
               "parentRowSpace": 10,
               "labelWidth": 5,
-              "autoFocus": "{{Checkbox3.isChecked ? 'true':'false'}}",
+              "autoFocus": "{{Checkbox3.isChecked}}",
               "type": "INPUT_WIDGET_V2",
               "hideCard": false,
-              "animateLoading": "{{Checkbox4.isChecked ? 'true':'false'}}",
+              "animateLoading": "{{Checkbox4.isChecked}}",
               "parentColumnSpace": 12.5625,
               "dynamicTriggerPathList": [
                 {
