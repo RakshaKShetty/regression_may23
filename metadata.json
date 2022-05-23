@@ -10,7 +10,9 @@
     "mysql_crud",
     "Hob",
     "S3",
-    "smtP"
+    "smtP",
+    "Alldatatypes1",
+    "sampledb"
   ],
   "publishedPageOrder": [
     "postgre",
@@ -21,11 +23,29 @@
     "mysql_crud",
     "Hob",
     "S3",
-    "smtP"
+    "smtP",
+    "Alldatatypes1",
+    "sampledb"
   ],
   "publishedDefaultPageName": "postgre",
   "unpublishedDefaultPageName": "postgre",
   "invisibleActionFields": {
+    "Alldatatypes1_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Alldatatypes1_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Alldatatypes1_SelectQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Alldatatypes1_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
     "Hob_DeleteQuery": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
@@ -229,6 +249,10 @@
     "postgre_update_old": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
+    },
+    "sampledb_Query1": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
     },
     "smtP_smtp": {
       "unpublishedUserSetOnLoad": false,
