@@ -28,13 +28,18 @@
             {
               "boxShadow": "none",
               "widgetName": "Input1",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "autoFocus"
+                }
+              ],
               "displayName": "Input",
               "iconSVG": "/static/media/icon.9f505595.svg",
               "topRow": 9,
               "bottomRow": 13,
               "parentRowSpace": 10,
               "labelWidth": 5,
-              "autoFocus": true,
+              "autoFocus": "{{Checkbox1.isChecked ? 'true':'false'}}",
               "type": "INPUT_WIDGET_V2",
               "hideCard": false,
               "animateLoading": true,
@@ -48,6 +53,9 @@
                 },
                 {
                   "key": "borderRadius"
+                },
+                {
+                  "key": "autoFocus"
                 }
               ],
               "labelPosition": "Left",
@@ -116,11 +124,49 @@
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "iconAlign": "left",
               "defaultText": ""
+            },
+            {
+              "widgetName": "Checkbox1",
+              "displayName": "Checkbox",
+              "iconSVG": "/static/media/icon.aaab032b.svg",
+              "topRow": 24,
+              "bottomRow": 28,
+              "parentRowSpace": 10,
+              "type": "CHECKBOX_WIDGET",
+              "alignWidget": "LEFT",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 12,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "isDisabled": false,
+              "key": "cfe0ld8szi",
+              "isRequired": false,
+              "rightColumn": 31,
+              "widgetId": "hvgsyd0ww5",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "label": "Autofocus",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "defaultCheckedState": true
             }
           ]
         },
         "layoutOnLoadActions": [],
         "widgetNames": [
+          "Checkbox1",
           "Input1",
           "Input2",
           "MainContainer"
