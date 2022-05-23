@@ -6,14 +6,14 @@
     "SwitchGroupWidget",
     "Rating",
     "Input",
-    "Page1"
+    "Audio"
   ],
   "publishedPageOrder": [
     "CheckboxGroup",
     "SwitchGroupWidget",
     "Rating",
     "Input",
-    "Page1"
+    "Audio"
   ],
   "publishedDefaultPageName": "CheckboxGroup",
   "unpublishedDefaultPageName": "CheckboxGroup",
