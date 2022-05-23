@@ -6,14 +6,16 @@
     "SwitchGroupWidget",
     "Rating",
     "Input",
-    "Audio"
+    "Audio",
+    "AudioRecorder"
   ],
   "publishedPageOrder": [
     "CheckboxGroup",
     "SwitchGroupWidget",
     "Rating",
     "Input",
-    "Audio"
+    "Audio",
+    "AudioRecorder"
   ],
   "publishedDefaultPageName": "CheckboxGroup",
   "unpublishedDefaultPageName": "CheckboxGroup",
