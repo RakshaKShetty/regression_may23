@@ -208,7 +208,7 @@
               "iconSVG": "/static/media/icon.c98225ee.svg",
               "labelText": "Switch to your requirement",
               "topRow": 3,
-              "bottomRow": 9,
+              "bottomRow": 16,
               "parentRowSpace": 10,
               "labelWidth": 5,
               "type": "SWITCH_GROUP_WIDGET",
