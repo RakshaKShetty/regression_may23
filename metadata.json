@@ -23,6 +23,10 @@
     "Page3_Query1": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
+    },
+    "Page4_Api1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
     }
   },
   "publishedLayoutmongoEscapedWidgets": {},
