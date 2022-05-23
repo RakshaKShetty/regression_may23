@@ -5,13 +5,15 @@
     "CheckboxGroup",
     "SwitchGroupWidget",
     "Rating",
-    "Input"
+    "Input",
+    "Page1"
   ],
   "publishedPageOrder": [
     "CheckboxGroup",
     "SwitchGroupWidget",
     "Rating",
-    "Input"
+    "Input",
+    "Page1"
   ],
   "publishedDefaultPageName": "CheckboxGroup",
   "unpublishedDefaultPageName": "CheckboxGroup",
