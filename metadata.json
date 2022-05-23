@@ -9,7 +9,8 @@
     "Mysql",
     "mysql_crud",
     "Hob",
-    "S3"
+    "S3",
+    "smtP"
   ],
   "publishedPageOrder": [
     "postgre",
@@ -19,7 +20,8 @@
     "Mysql",
     "mysql_crud",
     "Hob",
-    "S3"
+    "S3",
+    "smtP"
   ],
   "publishedDefaultPageName": "postgre",
   "unpublishedDefaultPageName": "postgre",
@@ -225,6 +227,10 @@
       "publishedUserSetOnLoad": false
     },
     "postgre_update_old": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "smtP_smtp": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     }
