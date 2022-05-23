@@ -3,11 +3,13 @@
   "serverSchemaVersion": 4,
   "pageOrder": [
     "CheckboxGroup",
-    "SwitchGroupWidget"
+    "SwitchGroupWidget",
+    "Page1"
   ],
   "publishedPageOrder": [
     "CheckboxGroup",
-    "SwitchGroupWidget"
+    "SwitchGroupWidget",
+    "Page1"
   ],
   "publishedDefaultPageName": "CheckboxGroup",
   "unpublishedDefaultPageName": "CheckboxGroup",
