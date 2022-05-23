@@ -52,6 +52,9 @@
                 },
                 {
                   "key": "isDisabled"
+                },
+                {
+                  "key": "defaultSelectedValues"
                 }
               ],
               "labelPosition": "Left",
@@ -74,7 +77,7 @@
               "labelTextSize": "0.875rem",
               "isRequired": true,
               "rightColumn": 38,
-              "defaultSelectedValues": "[\n  \"RED\"\n]",
+              "defaultSelectedValues": "[\n  \"{{Text1.text}}\"\n]",
               "widgetId": "110vacbks7",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisible": true,
@@ -122,6 +125,46 @@
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "defaultCheckedState": true
+            },
+            {
+              "widgetName": "Text1",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b52.svg",
+              "topRow": 25,
+              "bottomRow": 29,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 12,
+              "dynamicBindingPathList": [
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "#FFC13D",
+              "text": "RED",
+              "key": "chxtnohj02",
+              "rightColumn": 28,
+              "textAlign": "LEFT",
+              "widgetId": "b1cmeyr049",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "fontSize": "1rem"
             }
           ]
         },
@@ -129,7 +172,8 @@
         "widgetNames": [
           "Checkbox1",
           "MainContainer",
-          "SwitchGroup1"
+          "SwitchGroup1",
+          "Text1"
         ],
         "validOnPageLoadActions": true,
         "id": "Page1",
