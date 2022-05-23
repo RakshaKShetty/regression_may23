@@ -1,47 +1,44 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "mysql_crud",
+    "slug": "mysql-crud",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 5000,
+          "bottomRow": 710,
           "containerStyle": "none",
-          "snapRows": 125,
+          "snapRows": 71,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 58,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 720,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "children": []
         },
         "layoutOnLoadActions": [],
-        "widgetNames": [
-          "MainContainer"
-        ],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "mysql_crud",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "policies": [],
-  "gitSyncId": "628b1468db0f9c6e620d5d5e_628b1468db0f9c6e620d5d60"
+  "gitSyncId": "628b17cedb0f9c6e620d5d9a_628b30c2db0f9c6e620d5fa4"
 }
