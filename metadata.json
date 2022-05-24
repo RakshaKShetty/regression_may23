@@ -5,13 +5,15 @@
     "Page1",
     "Page2",
     "Page3",
-    "Page4"
+    "Page4",
+    "Page5"
   ],
   "publishedPageOrder": [
     "Page1",
     "Page2",
     "Page3",
-    "Page4"
+    "Page4",
+    "Page5"
   ],
   "publishedDefaultPageName": "Page1",
   "unpublishedDefaultPageName": "Page1",
